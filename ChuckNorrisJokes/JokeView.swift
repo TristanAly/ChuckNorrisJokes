@@ -14,22 +14,28 @@ struct JokeView: View {
     var body: some View {
         VStack{
             Spacer()
+            Text(joke)
+                .font(.title2)
+                .foregroundColor(.white)
+                .bold()
+                .padding()
+                .frame(width: 300,height: 260)
+                .background(.blue.opacity(0.7))
+                .cornerRadius(10)
+            Spacer()
             Button {
                 Task.init {
                         self.joke = try await getJoke()
                 }
             } label: {
-                Text("Cliquez ici")
+                Text("Vous voulez une blague sur Chuck Norris")
                     .foregroundColor(.white)
                     .bold()
             }
-            .buttonStyle(.borderedProminent)
             .padding()
-Spacer()
-            Text(joke)
-                .font(.title2)
-                .padding()
-                .frame(width: 300,height: 260)
+            .background(.blue)
+            .cornerRadius(10)
+            .padding()
         }
     }
 }
