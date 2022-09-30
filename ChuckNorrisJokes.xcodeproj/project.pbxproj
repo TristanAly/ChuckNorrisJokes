@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		171EA2F928E2E1CA000C9327 /* ChuckNorrisJokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA2F828E2E1CA000C9327 /* ChuckNorrisJokesApp.swift */; };
-		171EA2FB28E2E1CA000C9327 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA2FA28E2E1CA000C9327 /* ContentView.swift */; };
+		171EA2FB28E2E1CA000C9327 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA2FA28E2E1CA000C9327 /* TabBarView.swift */; };
 		171EA2FD28E2E1CC000C9327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171EA2FC28E2E1CC000C9327 /* Assets.xcassets */; };
 		171EA30028E2E1CC000C9327 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171EA2FF28E2E1CC000C9327 /* Preview Assets.xcassets */; };
 		171EA30728E2E1E9000C9327 /* JokesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171EA30628E2E1E9000C9327 /* JokesModel.swift */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		171EA2F528E2E1CA000C9327 /* ChuckNorrisJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		171EA2F828E2E1CA000C9327 /* ChuckNorrisJokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisJokesApp.swift; sourceTree = "<group>"; };
-		171EA2FA28E2E1CA000C9327 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		171EA2FA28E2E1CA000C9327 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		171EA2FC28E2E1CC000C9327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171EA2FF28E2E1CC000C9327 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		171EA30628E2E1E9000C9327 /* JokesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesModel.swift; sourceTree = "<group>"; };
@@ -60,11 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				171EA2F828E2E1CA000C9327 /* ChuckNorrisJokesApp.swift */,
-				171EA2FA28E2E1CA000C9327 /* ContentView.swift */,
-				171EA30628E2E1E9000C9327 /* JokesModel.swift */,
-				171EA30C28E2EFF3000C9327 /* GithubView.swift */,
-				171EA30E28E2F047000C9327 /* GithubModel.swift */,
-				171EA30A28E2E523000C9327 /* JokeView.swift */,
+				17B5F9B428E71FEE00DA64E2 /* Models */,
+				17B5F9B528E71FFB00DA64E2 /* Views */,
 				171EA2FC28E2E1CC000C9327 /* Assets.xcassets */,
 				171EA2FE28E2E1CC000C9327 /* Preview Content */,
 			);
@@ -77,6 +74,25 @@
 				171EA2FF28E2E1CC000C9327 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17B5F9B428E71FEE00DA64E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				171EA30628E2E1E9000C9327 /* JokesModel.swift */,
+				171EA30E28E2F047000C9327 /* GithubModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17B5F9B528E71FFB00DA64E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				171EA2FA28E2E1CA000C9327 /* TabBarView.swift */,
+				171EA30C28E2EFF3000C9327 /* GithubView.swift */,
+				171EA30A28E2E523000C9327 /* JokeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 				171EA30D28E2EFF3000C9327 /* GithubView.swift in Sources */,
 				171EA30B28E2E523000C9327 /* JokeView.swift in Sources */,
 				171EA30728E2E1E9000C9327 /* JokesModel.swift in Sources */,
-				171EA2FB28E2E1CA000C9327 /* ContentView.swift in Sources */,
+				171EA2FB28E2E1CA000C9327 /* TabBarView.swift in Sources */,
 				171EA30F28E2F047000C9327 /* GithubModel.swift in Sources */,
 				171EA2F928E2E1CA000C9327 /* ChuckNorrisJokesApp.swift in Sources */,
 			);

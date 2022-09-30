@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TabBarView.swift
 //  ChuckNorrisJokes
 //
 //  Created by apprenant1 on 27/09/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TabBarView: View {
     var body: some View {
         TabView{
             JokeView()
@@ -24,6 +24,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TabBarView()
     }
 }
