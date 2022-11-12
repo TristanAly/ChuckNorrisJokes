@@ -45,6 +45,7 @@
 		171EA2EC28E2E1CA000C9327 = {
 			isa = PBXGroup;
 			children = (
+				170D7F6D2920009700D86791 /* README.md */,
 				171EA2F728E2E1CA000C9327 /* ChuckNorrisJokes */,
 				171EA2F628E2E1CA000C9327 /* Products */,
 			);
@@ -64,7 +65,6 @@
 				171EA2F828E2E1CA000C9327 /* ChuckNorrisJokesApp.swift */,
 				17B5F9B428E71FEE00DA64E2 /* Models */,
 				17B5F9B528E71FFB00DA64E2 /* Views */,
-				170D7F6D2920009700D86791 /* README.md */,
 				171EA2FC28E2E1CC000C9327 /* Assets.xcassets */,
 				171EA2FE28E2E1CC000C9327 /* Preview Content */,
 			);
